@@ -2,7 +2,7 @@
 
 // SetWindowSize is windows only ¯\_(ツ)_/¯
 if (OperatingSystem.IsWindows()) 
-    Console.SetWindowSize(100, 40);
+    Console.SetWindowSize(200, 40);
 
 Console.WriteLine("Good morning Rick! Today is {0}.",DateTime.Today.Date);
 
